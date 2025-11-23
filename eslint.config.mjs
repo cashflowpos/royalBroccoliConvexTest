@@ -12,6 +12,9 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Ignore auto-generated Convex files
+    "convex/_generated/**",
+    "convex/**/_generated/**",
   ]),
 ]);
 
